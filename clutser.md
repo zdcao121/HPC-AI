@@ -4,6 +4,6 @@
 
 并行：   
 编译：mpiifort -o MPIzdcao.exe 1.f90   
-运行: srun --mpi=pmi2  MPIzdcao.exe   
+运行：srun --mpi=pmi2  MPIzdcao.exe   
 节点和核数在slurm的提交脚本里面设置   
  
