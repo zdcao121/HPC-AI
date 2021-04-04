@@ -1,3 +1,5 @@
+Fortran在minicluster上的编译和运行
+
 串行：   
 编译：ifort -o zdcao.exe 1.f90 (1.f90为文件名，下同)   
 运行：srun zdcao.exe   
