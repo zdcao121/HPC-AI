@@ -1,4 +1,8 @@
-Fortran在minicluster上的编译和运行
+Fortran在minicluster上的编译和运行  
+调用oneAPI来编译fortran程序  
+
+   source /home/apps/oneapi/setvars.sh intel64   
+
 
 串行：   
 编译：ifort -o zdcao.exe 1.f90 (1.f90为文件名，下同)   
