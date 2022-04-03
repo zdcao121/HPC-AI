@@ -13,3 +13,6 @@ Fortran在minicluster上的编译和运行
 运行：srun --mpi=pmi2  MPIzdcao.exe   
 节点和核数在slurm的提交脚本里面设置   
  
+ 
+ C++ FFTW编译    
+ g++ -I /home/zdcao/bin/fftw/include -L /home/zdcao/bin/fftw/lib test.cpp -lfftw3 -o test (test.cpp为文件名)    
